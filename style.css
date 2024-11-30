@@ -35,7 +35,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: all 1s ease-in-out; transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    transition: all 1s ease-in-out, transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
     box-shadow: 0 8px 16px rgba(176, 233, 20, 0.2);  /* Тень */
 }
 /* Анимация увеличения при наведении */
@@ -76,7 +76,7 @@ body{
 .slide-link {
     display: block;
     position: relative;
-    top: 600px;
+    top: 97%;
     left: 5px;
     color: #4b1010;
     font-family: Tahoma, sans-serif;
@@ -92,7 +92,7 @@ text-decoration: underline;
 a {
     color: #92f7da;
     text-decoration: none;
-    ont-weight: bold; /*Делаем текст жирным */
+    font-weight: bold; /*Делаем текст жирным */
     transition: color 0.3s ease; /*Плавное  изменение цвета при наведение */
 }
 a:hover {
